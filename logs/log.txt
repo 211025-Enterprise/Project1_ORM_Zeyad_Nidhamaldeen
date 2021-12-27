@@ -1,0 +1,715 @@
+2021-11-13 19:31:21 INFO  DaoManager:54 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-13 19:31:26 INFO  DaoManager:54 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-13 19:31:31 INFO  DaoManager:54 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-13 19:35:44 INFO  DaoManager:54 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-13 19:41:09 INFO  DaoManager:54 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-13 21:10:08 INFO  DaoManager:54 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-18 10:45:23 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-18 10:47:55 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-18 10:48:31 INFO  DaoServices:115 - Executing query: SELECT * from Users where "id" = 1 from insert
+2021-11-18 10:48:31 INFO  DaoServices:46 - Executing query: INSERT into Users values (1,'Mike','Mike','SOSO') from create
+2021-11-18 10:48:31 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-18 10:49:09 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-18 10:49:09 INFO  DaoServices:115 - Executing query: SELECT * from Users where "id" = 1 from insert
+2021-11-18 10:49:09 INFO  DaoServices:74 - Executing query: UPDATE Users SET "id"=1,"name"='Zeyad',"firstname"='Zeyad',"lastname"='Toto' where "id" = 1 from update
+2021-11-18 10:49:32 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-19 20:13:01 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-19 20:13:38 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-19 20:16:08 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-19 20:16:36 ERROR DaoServices:31 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 28
+2021-11-19 20:16:36 TRACE DaoServices:32 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 28
+2021-11-19 20:16:36 WARN  DaoServices:33 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 28
+2021-11-19 20:17:03 INFO  DaoServices:115 - Executing query: SELECT * from Users where "id" = 1 from insert
+2021-11-19 20:17:03 INFO  DaoServices:46 - Executing query: INSERT into Users values (1,'Zeyad','Zeyad','Toto') from create
+2021-11-19 20:17:03 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-19 20:19:29 INFO  DaoServices:115 - Executing query: SELECT * from Users where "id" = 1 from insert
+2021-11-19 20:19:29 INFO  DaoServices:46 - Executing query: INSERT into Users values (1,'Zeyad','Zeyad','Toto') from create
+2021-11-19 20:19:29 INFO  DaoServices:57 - Executing query: SELECT * from Users where "id" = 1 from read
+2021-11-19 20:20:49 INFO  DaoServices:115 - Executing query: SELECT * from Cars where "id" = 1 from insert
+2021-11-19 20:20:49 INFO  DaoServices:46 - Executing query: INSERT into Cars values (1,'Zeyad','Zeyad','Toto') from create
+2021-11-19 20:20:49 INFO  DaoServices:57 - Executing query: SELECT * from Cars where "id" = 1 from read
+2021-11-19 20:21:57 INFO  DaoServices:115 - Executing query: SELECT * from Car where "id" = 1 from insert
+2021-11-19 20:21:57 INFO  DaoServices:46 - Executing query: INSERT into Car values (1,'Zeyad','Zeyad','Toto') from create
+2021-11-19 20:21:57 INFO  DaoServices:57 - Executing query: SELECT * from Car where "id" = 1 from read
+2021-11-19 20:23:08 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:23:08 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:23:08 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:24:15 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:24:15 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:24:15 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:27:09 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:27:21 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:27:21 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:27:21 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:27:43 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:27:43 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:27:52 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:27:52 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:30:11 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:30:11 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:30:34 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:30:34 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:32:49 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:32:49 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:33:35 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:33:35 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:33:35 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:36:13 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:36:13 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:36:31 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:36:31 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 20:38:13 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:38:13 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:38:13 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:38:38 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:38:38 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:38:38 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:39:30 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:42:16 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:42:29 ERROR DaoServices:31 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-19 20:42:29 TRACE DaoServices:32 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-19 20:42:29 WARN  DaoServices:33 - org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+2021-11-19 20:43:28 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:43:28 INFO  DaoServices:46 - Executing query: CREATE table if not exists Student ("id" integer,"firstname" text,"lastname" text, primary key("id")) from create
+2021-11-19 20:44:00 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:44:00 INFO  DaoServices:46 - Executing query: CREATE table if not exists Student ("id" integer,"firstname" text,"lastname" text, primary key("id")) from create
+2021-11-19 20:44:21 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:44:21 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:44:21 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:46:04 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:47:25 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:47:25 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:47:25 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:47:56 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:47:56 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:47:56 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:49:05 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:49:05 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:49:05 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:50:33 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:50:33 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:50:33 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:52:01 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:52:01 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:52:01 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:53:49 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:53:49 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:53:49 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:56:38 INFO  DaoServices:115 - Executing query: SELECT * from Students where "id" = 1 from insert
+2021-11-19 20:56:38 INFO  DaoServices:46 - Executing query: INSERT into Students values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:56:38 INFO  DaoServices:57 - Executing query: SELECT * from Students where "id" = 1 from read
+2021-11-19 20:57:01 INFO  DaoServices:115 - Executing query: SELECT * from Students where "id" = 1 from insert
+2021-11-19 20:57:01 INFO  DaoServices:46 - Executing query: INSERT into Students values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:57:01 INFO  DaoServices:57 - Executing query: SELECT * from Students where "id" = 1 from read
+2021-11-19 20:57:16 INFO  DaoServices:115 - Executing query: SELECT * from Students where "id" = 1 from insert
+2021-11-19 20:57:16 INFO  DaoServices:46 - Executing query: INSERT into Students values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:57:16 INFO  DaoServices:57 - Executing query: SELECT * from Students where "id" = 1 from read
+2021-11-19 20:57:29 INFO  DaoServices:115 - Executing query: SELECT * from Students where "id" = 1 from insert
+2021-11-19 20:57:29 INFO  DaoServices:46 - Executing query: INSERT into Students values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:57:29 INFO  DaoServices:57 - Executing query: SELECT * from Students where "id" = 1 from read
+2021-11-19 20:58:20 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:58:20 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:58:20 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:58:33 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:58:33 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:58:33 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 20:58:46 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 20:58:46 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 20:58:46 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:00:12 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:00:12 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:00:12 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:00:26 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:00:26 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:00:26 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:00:40 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:00:40 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:00:40 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:01:48 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:01:48 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:01:48 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:02:01 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:02:01 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:02:01 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:02:13 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:02:13 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:02:14 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:02:35 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:02:35 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-19 21:05:00 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:05:26 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:06:14 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:06:14 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:06:14 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:20:17 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:20:17 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:20:17 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 21:27:32 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 21:27:32 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 21:27:32 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 22:54:10 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 22:54:39 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 22:55:29 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 22:55:29 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 22:55:29 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 23:06:00 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 23:06:00 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 23:06:00 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 23:06:46 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 23:06:46 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 23:06:46 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 23:07:12 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 23:07:12 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 23:07:12 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 23:09:15 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 23:09:15 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 23:09:15 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 23:19:20 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 23:19:20 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 23:19:20 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-19 23:28:08 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-19 23:28:08 INFO  DaoServices:46 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-19 23:28:08 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-19 23:29:35 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-19 23:29:35 INFO  DaoServices:46 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-19 23:29:35 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-19 23:54:14 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-19 23:54:14 INFO  DaoServices:46 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-19 23:54:14 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-19 23:56:32 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-19 23:56:32 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-19 23:56:32 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 01:09:41 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 01:09:41 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 01:09:41 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 09:19:04 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 09:19:04 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 09:19:04 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 09:19:53 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 09:19:53 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 09:19:53 INFO  DaoServices:74 - Executing query: UPDATE Student SET "id"=1,"firstname"='Mike',"lastname"='Mike' where "id" = 1 from update
+2021-11-20 09:20:05 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 09:20:05 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 09:20:05 INFO  DaoServices:74 - Executing query: UPDATE Student SET "id"=1,"firstname"='Mike',"lastname"='Mike' where "id" = 1 from update
+2021-11-20 09:21:15 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-20 09:21:40 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 2 from insert
+2021-11-20 09:21:40 INFO  DaoServices:46 - Executing query: INSERT into Student values (2,'Mike','Mike') from create
+2021-11-20 09:21:40 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-20 09:22:04 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 3 from insert
+2021-11-20 09:22:04 INFO  DaoServices:46 - Executing query: INSERT into Student values (3,'Mike','Mike') from create
+2021-11-20 09:22:04 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 3 from read
+2021-11-20 09:22:48 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 09:22:48 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-20 09:23:12 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-20 09:23:12 INFO  DaoServices:98 - Executing query: DELETE from Student where "id" = 2 from delete
+2021-11-20 13:20:00 INFO  DaoServices:115 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 13:20:00 INFO  DaoServices:46 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 13:20:00 INFO  DaoServices:57 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 13:54:31 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 13:54:31 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 13:54:31 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 14:04:53 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 14:04:53 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 14:04:53 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 15:33:31 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 15:33:31 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 15:33:31 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 15:37:01 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-20 15:37:01 INFO  DaoServices:48 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-20 15:37:01 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-20 15:38:13 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-20 15:38:13 INFO  DaoServices:48 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-20 15:38:13 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-20 15:50:13 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 15:50:13 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 15:50:13 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 16:57:15 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 16:57:16 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 16:57:16 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 16:59:04 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 16:59:04 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 16:59:04 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 17:02:49 INFO  DaoServices:117 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-20 17:02:49 INFO  DaoServices:48 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-20 17:02:49 INFO  DaoServices:59 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-20 18:39:09 INFO  DaoServices:118 - Executing query: SELECT * from Student where "id" = 0 from insert
+2021-11-20 18:39:09 INFO  DaoServices:49 - Executing query: INSERT into Student values (0,NULL,NULL) from create
+2021-11-20 18:39:09 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-20 18:39:55 INFO  DaoServices:118 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 18:39:55 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 18:39:55 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 18:41:14 INFO  DaoServices:118 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 18:41:14 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 18:41:14 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 18:44:58 INFO  DaoServices:118 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 18:44:58 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 18:44:58 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:03:08 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 20:03:08 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:03:52 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:03:52 INFO  DaoServices:77 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-20 20:03:57 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:03:57 INFO  DaoServices:77 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-20 20:04:07 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:04:07 INFO  DaoServices:77 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-20 20:04:53 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 20:04:53 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:10:43 INFO  DaoServices:119 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 20:11:00 INFO  DaoServices:119 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 20:11:00 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 20:11:00 INFO  DaoServices:61 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:15:57 INFO  DaoServices:48 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 20:15:57 INFO  DaoServices:62 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 20:23:41 INFO  DaoServices:118 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 20:23:41 INFO  DaoServices:49 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 20:23:41 INFO  DaoServices:60 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 22:21:09 INFO  DaoServices:127 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 22:21:09 INFO  DaoServices:57 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 22:21:09 INFO  DaoServices:69 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 22:21:22 INFO  DaoServices:127 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 22:21:31 INFO  DaoServices:127 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 22:21:31 INFO  DaoServices:57 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 22:21:31 INFO  DaoServices:69 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 22:22:23 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 22:22:23 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 22:22:23 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 22:28:25 INFO  DaoServices:53 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 22:28:25 INFO  DaoServices:66 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 22:33:09 INFO  DaoServices:123 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 22:33:09 INFO  DaoServices:53 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-20 22:33:09 INFO  DaoServices:65 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-20 22:33:09 INFO  DaoServices:123 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-20 22:33:09 INFO  DaoServices:82 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-21 02:42:51 INFO  DaoServices:123 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 02:42:51 INFO  DaoServices:53 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 02:46:15 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 02:46:15 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 02:47:35 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 02:47:35 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 02:47:35 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 02:48:00 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 02:48:00 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 02:48:00 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 02:53:44 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 02:54:00 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 02:54:00 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 02:54:00 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:10:33 INFO  DaoServices:122 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:10:33 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 03:10:33 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:12:13 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:12:13 INFO  DaoServices:55 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 03:12:13 INFO  DaoServices:67 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:14:45 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:14:45 INFO  DaoServices:55 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 03:14:45 INFO  DaoServices:67 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:18:44 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:18:44 INFO  DaoServices:55 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-21 03:18:44 INFO  DaoServices:67 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:20:49 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:20:49 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:20:49 INFO  DaoServices:86 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-21 03:20:55 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:20:55 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:20:55 INFO  DaoServices:86 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-21 03:29:25 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:30:03 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:30:35 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:31:02 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:31:02 INFO  DaoServices:55 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 03:31:02 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 03:49:01 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 03:49:01 INFO  DaoServices:55 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 03:49:01 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:37:44 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:37:44 INFO  DaoServices:55 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 16:37:44 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:38:31 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:38:31 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:38:31 INFO  DaoServices:86 - Executing query: UPDATE Student SET "id"=1,"firstname"='Jon',"lastname"='Jon' where "id" = 1 from update
+2021-11-21 16:38:42 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:38:42 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:38:42 INFO  DaoServices:86 - Executing query: UPDATE Student SET "id"=1,"firstname"='Jon',"lastname"='Jon' where "id" = 1 from update
+2021-11-21 16:40:28 INFO  DaoServices:68 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:43:52 INFO  DaoServices:139 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:43:52 INFO  DaoServices:78 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:44:40 INFO  DaoServices:78 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:44:41 INFO  DaoServices:139 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:44:41 INFO  DaoServices:96 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-21 16:44:45 INFO  DaoServices:78 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:44:45 INFO  DaoServices:139 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:44:45 INFO  DaoServices:96 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-21 16:45:20 INFO  DaoServices:139 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:45:20 INFO  DaoServices:78 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:48:43 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:48:43 INFO  DaoServices:51 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-21 16:48:43 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:49:18 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:49:18 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:49:18 INFO  DaoServices:82 - Executing query: UPDATE Student SET "id"=1,"firstname"='Jon',"lastname"='Jon' where "id" = 1 from update
+2021-11-21 16:49:23 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:49:24 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 16:49:24 INFO  DaoServices:82 - Executing query: UPDATE Student SET "id"=1,"firstname"='Jon',"lastname"='Jon' where "id" = 1 from update
+2021-11-21 16:51:04 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:51:04 INFO  DaoServices:107 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-21 16:51:20 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 16:51:20 INFO  DaoServices:107 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-21 17:22:49 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 17:22:49 INFO  DaoServices:51 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-21 17:22:49 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 17:34:24 INFO  DaoServices:125 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 17:34:24 INFO  DaoServices:51 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-21 17:34:24 INFO  DaoServices:64 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-21 19:12:13 INFO  DaoServices:129 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-21 19:12:13 INFO  DaoServices:52 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-21 19:12:13 INFO  DaoServices:65 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 11:43:11 INFO  DaoServices:133 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 11:43:11 INFO  DaoServices:56 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 11:43:11 INFO  DaoServices:69 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 19:22:25 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:22:25 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:22:25 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:36:06 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:36:06 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:36:06 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:36:36 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:36:36 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:36:36 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:38:39 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:38:39 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:38:39 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:38:55 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:38:55 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:38:55 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 101
+2021-11-22 19:47:45 INFO  DaoServices:138 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 19:47:45 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 19:47:45 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 19:53:28 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 98
+2021-11-22 19:53:28 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 98
+2021-11-22 19:53:28 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 98
+2021-11-22 19:57:06 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 19:57:06 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 19:57:06 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 19:57:26 INFO  DaoServices:138 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 19:57:26 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 19:57:26 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 20:19:54 INFO  DaoServices:154 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 20:19:54 INFO  DaoServices:77 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 20:23:51 INFO  DaoServices:138 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 20:23:51 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 20:24:17 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:02:39 INFO  DaoServices:137 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:02:39 INFO  DaoServices:60 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:02:39 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:03:48 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:13:45 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:14:08 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:14:08 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:14:08 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:14:54 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:14:54 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:14:55 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:15:42 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:15:42 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:15:42 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:17:15 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:17:15 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:17:15 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:17:35 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:17:35 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:17:35 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:18:09 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:18:22 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:18:22 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:18:22 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:19:57 INFO  DaoServices:151 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:19:57 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:19:57 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:20:32 INFO  DaoServices:151 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:20:32 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:20:32 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:21:40 INFO  DaoServices:142 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:21:40 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:21:41 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:22:10 INFO  DaoServices:142 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:22:10 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:22:10 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:23:19 INFO  DaoServices:142 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:23:19 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:23:19 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:25:06 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:25:17 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:25:18 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:25:18 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:28:13 INFO  DaoServices:150 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:28:26 INFO  DaoServices:150 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:28:26 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:28:26 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:35:43 INFO  DaoServices:150 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:35:43 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:35:43 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:36:32 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:36:32 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:36:32 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:36:55 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:40:55 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:41:08 INFO  DaoServices:149 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 21:41:08 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 21:41:08 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:41:32 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 21:41:32 INFO  DaoServices:129 - Executing query: DELETE from Student where "id" = 1 from delete
+2021-11-22 21:41:53 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:38:55 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:38:55 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:38:55 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:39:44 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:39:44 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:39:44 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:41:52 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:41:52 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:41:52 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:42:22 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:42:22 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:42:22 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:44:21 ERROR DaoServices:46 - org.postgresql.util.PSQLException: Unterminated identifier started at position 96 in SQL CREATE table if not exists Student("id" integer,"firstname" text,"lastname" text, primary key(id"));. Expected " char
+2021-11-22 22:44:21 TRACE DaoServices:47 - org.postgresql.util.PSQLException: Unterminated identifier started at position 96 in SQL CREATE table if not exists Student("id" integer,"firstname" text,"lastname" text, primary key(id"));. Expected " char
+2021-11-22 22:44:21 WARN  DaoServices:48 - org.postgresql.util.PSQLException: Unterminated identifier started at position 96 in SQL CREATE table if not exists Student("id" integer,"firstname" text,"lastname" text, primary key(id"));. Expected " char
+2021-11-22 22:44:54 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:44:54 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:44:54 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:46:30 ERROR DaoServices:46 - org.postgresql.util.PSQLException: Unterminated identifier started at position 95 in SQL CREATE table if not exists Student ("id" integer,"firstname" text,"lastname" text, primary key("id));. Expected " char
+2021-11-22 22:46:30 TRACE DaoServices:47 - org.postgresql.util.PSQLException: Unterminated identifier started at position 95 in SQL CREATE table if not exists Student ("id" integer,"firstname" text,"lastname" text, primary key("id));. Expected " char
+2021-11-22 22:46:30 WARN  DaoServices:48 - org.postgresql.util.PSQLException: Unterminated identifier started at position 95 in SQL CREATE table if not exists Student ("id" integer,"firstname" text,"lastname" text, primary key("id));. Expected " char
+2021-11-22 22:47:05 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 22:47:05 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 22:47:05 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 22:48:31 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 98
+2021-11-22 22:48:31 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 98
+2021-11-22 22:48:31 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 98
+2021-11-22 22:51:12 ERROR DaoServices:46 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 22:51:12 TRACE DaoServices:47 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 22:51:12 WARN  DaoServices:48 - org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+  Position: 96
+2021-11-22 22:54:01 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:54:01 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:54:01 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:54:46 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:54:46 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:54:46 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:55:20 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:55:20 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:55:20 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:57:08 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:57:08 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:57:08 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 22:58:54 ERROR DaoServices:46 - org.postgresql.util.PSQLException: Unterminated identifier started at position 97 in SQL CREATE table if not exists Student ("id integer,"firstname" text,"lastname" text, primary key("id"));. Expected " char
+2021-11-22 22:58:54 TRACE DaoServices:47 - org.postgresql.util.PSQLException: Unterminated identifier started at position 97 in SQL CREATE table if not exists Student ("id integer,"firstname" text,"lastname" text, primary key("id"));. Expected " char
+2021-11-22 22:58:54 WARN  DaoServices:48 - org.postgresql.util.PSQLException: Unterminated identifier started at position 97 in SQL CREATE table if not exists Student ("id integer,"firstname" text,"lastname" text, primary key("id"));. Expected " char
+2021-11-22 22:59:01 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 22:59:01 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 22:59:01 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:12:18 INFO  DaoServices:148 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:12:18 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 23:12:18 INFO  DaoServices:74 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:30:16 INFO  DaoServices:150 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:30:16 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 23:30:16 INFO  DaoServices:75 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:33:47 INFO  DaoServices:152 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:33:47 INFO  DaoServices:62 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 23:33:47 INFO  DaoServices:76 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:39:38 ERROR DaoServices:42 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "Creating"
+  Position: 8
+2021-11-22 23:39:38 TRACE DaoServices:43 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "Creating"
+  Position: 8
+2021-11-22 23:39:38 WARN  DaoServices:44 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "Creating"
+  Position: 8
+2021-11-22 23:39:59 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:39:59 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 23:39:59 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:43:59 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:43:59 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 23:43:59 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:44:17 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:44:17 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Jon','Jon') from create
+2021-11-22 23:44:17 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:45:03 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:45:03 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:45:03 INFO  DaoServices:102 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-22 23:45:08 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:45:08 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:45:08 INFO  DaoServices:102 - Executing query: UPDATE Student SET "id"=1,"firstname"='Zeyad',"lastname"='Zeyad' where "id" = 1 from update
+2021-11-22 23:46:18 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:46:42 ERROR DaoServices:42 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:46:42 TRACE DaoServices:43 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:46:42 WARN  DaoServices:44 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:47:06 ERROR DaoServices:42 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:47:06 TRACE DaoServices:43 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:47:06 WARN  DaoServices:44 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:05 ERROR DaoServices:42 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:05 TRACE DaoServices:43 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:05 WARN  DaoServices:44 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:22 ERROR DaoServices:42 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:22 TRACE DaoServices:43 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:22 WARN  DaoServices:44 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:48:55 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-22 23:48:55 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-22 23:48:55 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-22 23:49:11 ERROR DaoServices:42 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:49:11 TRACE DaoServices:43 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-22 23:49:11 WARN  DaoServices:44 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "tableStudent"
+  Position: 8
+2021-11-23 10:54:31 INFO  DaoServices:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 10:54:31 INFO  DaoServices:61 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 10:54:31 INFO  DaoServices:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 11:48:36 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 11:48:36 INFO  DaoManager:61 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 11:48:36 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 12:47:48 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 12:47:48 INFO  DaoManager:61 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 12:47:49 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:17:16 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 13:17:16 INFO  DaoManager:61 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 13:17:16 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:54:01 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 13:54:01 INFO  DaoManager:61 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 13:54:01 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:54:21 ERROR DaoManager:42 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 13:54:21 TRACE DaoManager:43 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 13:54:21 WARN  DaoManager:44 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 13:54:21 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 2 from insert
+2021-11-23 13:54:21 INFO  DaoManager:61 - Executing query: INSERT into Student values (2,'Jon','Jon') from create
+2021-11-23 13:54:21 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 13:56:37 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 2 from insert
+2021-11-23 13:56:37 INFO  DaoManager:61 - Executing query: INSERT into Student values (2,'Jon','Jon') from create
+2021-11-23 13:56:37 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 13:57:00 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:57:05 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:57:19 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:57:31 INFO  DaoManager:73 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 13:57:31 INFO  DaoManager:145 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 14:01:26 INFO  DaoManager:72 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 14:01:26 INFO  DaoManager:144 - Executing query: SELECT * from Student where "id" = 1 from insert
+2021-11-23 14:27:05 INFO  DaoManager:152 - Executing query: SELECT * from Student where "id" = 1 from isExist
+2021-11-23 14:27:05 INFO  DaoManager:54 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 14:27:05 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 14:29:30 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 14:29:44 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 14:31:30 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 14:35:00 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 14:36:21 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 14:36:57 INFO  DaoManager:147 - Executing query: SELECT * from Student where "id" = 1 from isExist
+2021-11-23 14:36:57 INFO  DaoManager:54 - Executing query: INSERT into Student values (1,'Zeyad','Zeyad') from create
+2021-11-23 14:36:57 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 1 from read
+2021-11-23 14:38:21 ERROR DaoManager:35 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:38:21 TRACE DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:38:21 WARN  DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:38:22 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 14:40:41 INFO  DaoManager:152 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 14:40:41 ERROR DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:40:41 TRACE DaoManager:38 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:40:41 WARN  DaoManager:39 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:40:41 INFO  DaoManager:152 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 14:42:36 INFO  DaoManager:167 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 14:42:36 ERROR DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:42:36 TRACE DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:42:36 WARN  DaoManager:38 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:42:48 INFO  DaoManager:167 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 14:42:48 ERROR DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:42:48 TRACE DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:42:48 WARN  DaoManager:38 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 14:52:42 INFO  DaoManager:147 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 14:52:42 INFO  DaoManager:36 - Executing query: INSERT into Student values (2,'Jon','Jon') from create
+2021-11-23 14:52:42 INFO  DaoManager:66 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:02:06 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:02:06 INFO  DaoManager:53 - Executing query: INSERT into Student values (2,'Jon','Jon') from create
+2021-11-23 15:02:06 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:02:39 ERROR DaoManager:35 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:02:39 TRACE DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:02:39 WARN  DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:02:39 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:03:06 ERROR DaoManager:35 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:03:06 TRACE DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:03:06 WARN  DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:03:06 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:03:46 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:03:46 ERROR DaoManager:35 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:03:46 TRACE DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:03:46 WARN  DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:03:46 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:04:01 INFO  DaoManager:146 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:04:01 ERROR DaoManager:35 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:04:01 TRACE DaoManager:36 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:04:01 WARN  DaoManager:37 - org.postgresql.util.PSQLException: ERROR: relation "student" already exists
+2021-11-23 15:34:52 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:35:51 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:36:26 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:37:49 INFO  DaoManager:138 - Executing query: SELECT * from Student where "id" = 2 from isExist
+2021-11-23 15:37:49 INFO  DaoManager:53 - Executing query: INSERT into Student values (2,'Jon','Jon') from create
+2021-11-23 15:37:49 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:38:09 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:43:11 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:43:55 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:44:28 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:44:56 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:46:12 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 15:46:26 INFO  DaoManager:65 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:06:24 INFO  DaoManager:65 - Executing query: SELECT * from String where "id" = ? from read
+2021-11-23 16:06:52 INFO  DaoManager:65 - Executing query: SELECT * from String where "id" = ? from read
+2021-11-23 16:08:40 INFO  DaoManager:65 - Executing query: SELECT * from String where "id" = ? from read
+2021-11-23 16:11:35 INFO  DaoManager:65 - Executing query: SELECT * from String where "id" = ? from read
+2021-11-23 16:14:11 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 0 from read
+2021-11-23 16:14:21 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:14:29 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 5 from read
+2021-11-23 16:15:02 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:19:28 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:22:33 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:24:09 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:24:38 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:27:13 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
+2021-11-23 16:29:57 INFO  DaoManager:68 - Executing query: SELECT * from Student where "id" = 2 from read
